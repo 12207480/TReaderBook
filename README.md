@@ -1,5 +1,6 @@
 # TReaderBook
-图文混排阅读器 demo,支持图文混排，翻页样式，设置字体大小，书签，夜间护眼模式。
+图文混排阅读器,支持图文混排，属性文本，翻页样式，书签，夜间护眼模式。
+<br>图文混排使用的是我的 [TYAttributedLabel](https://github.com/12207480/TYAttributedLabel)
 
 ### ScreenShot
 *翻页样式<br>
