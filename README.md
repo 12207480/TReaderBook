@@ -2,4 +2,7 @@
 图文混排阅读器 demo
 
 ### ScreenShot
-![image](https://github.com/12207480/TYAlertController/blob/master/screenshot/TYAlertControllerDemo.gif)
+**翻页样式
+![image](https://github.com/12207480/TReaderBook/blob/master/screenshot/TReaderBook.gif)
+**滚动样式
+![image](https://github.com/12207480/TReaderBook/blob/master/screenshot/TReaderBook1.gif)
