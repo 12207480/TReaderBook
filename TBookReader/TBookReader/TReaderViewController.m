@@ -332,17 +332,18 @@
         _chapter = chapter;
         [_readerBook resetChapter:chapter];
     }
-    NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
     
     TReaderTextController *readerVC = [[TReaderTextController alloc]init];
     if (currentPage > 0) {
         [self confogureReaderController:readerVC page:currentPage-1 chapter:chapter];
+        NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
         return readerVC;
     }else {
         if ([_readerBook havePreChapter]) {
             NSLog(@"--获取上一章");
             TReaderChapter *preChapter = [self getBookPreChapter];
             [self confogureReaderController:readerVC page:preChapter.totalPage-1 chapter:preChapter];
+            NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
             return readerVC;
         }else {
             NSLog(@"已经是第一页了");
@@ -368,20 +369,20 @@
         [_readerBook resetChapter:chapter];
     }
     
-    NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
-    
     TReaderTextController *readerVC = [[TReaderTextController alloc]init];
     if (currentPage < chapter.totalPage - 1) {
         [self confogureReaderController:readerVC page:currentPage+1 chapter:chapter];
+         NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
         return readerVC;
     }else {
         if ([_readerBook haveNextChapter]) {
             NSLog(@"--获取下一章");
             TReaderChapter *nextChapter = [self getBookNextChapter];
             [self confogureReaderController:readerVC page:0 chapter:nextChapter];
+             NSLog(@"总页码%ld 当前页码%ld",chapter.totalPage,_curPage+1);
             return  readerVC;
-                
         }else {
+            NSLog(@"已经是最后一页了");
             return nil;
         }
     }
