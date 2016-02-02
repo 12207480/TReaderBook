@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0BBB8E51C5095A7005B0F37 /* TReaderBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBB8E41C5095A7005B0F37 /* TReaderBook.m */; };
+		B0BBB8E91C509743005B0F37 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBB8E61C509743005B0F37 /* avatar.png */; };
+		B0BBB8EA1C509743005B0F37 /* CYLoLi.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBB8E71C509743005B0F37 /* CYLoLi.png */; };
+		B0BBB8EB1C509743005B0F37 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBB8E81C509743005B0F37 /* haha.png */; };
+		D35278A61C56402C007D72E0 /* EReaderFontBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D352789E1C56402C007D72E0 /* EReaderFontBar.m */; };
+		D35278A71C56402C007D72E0 /* EReaderFontBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D352789F1C56402C007D72E0 /* EReaderFontBar.xib */; };
+		D35278A81C56402C007D72E0 /* EReaderToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D35278A11C56402C007D72E0 /* EReaderToolBar.m */; };
+		D35278A91C56402C007D72E0 /* EReaderToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35278A21C56402C007D72E0 /* EReaderToolBar.xib */; };
+		D35278AA1C56402C007D72E0 /* EReaderTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D35278A41C56402C007D72E0 /* EReaderTopBar.m */; };
+		D35278AB1C56402C007D72E0 /* EReaderTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35278A51C56402C007D72E0 /* EReaderTopBar.xib */; };
+		D35278B01C5640CA007D72E0 /* UIColor+TReaderTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = D35278AF1C5640CA007D72E0 /* UIColor+TReaderTheme.m */; };
+		D35278B31C5641A4007D72E0 /* UIView+NIB.m in Sources */ = {isa = PBXBuildFile; fileRef = D35278B21C5641A4007D72E0 /* UIView+NIB.m */; };
+		D3A63EEF1C506B6A009CC22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63EEE1C506B6A009CC22E /* main.m */; };
+		D3A63EF21C506B6A009CC22E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63EF11C506B6A009CC22E /* AppDelegate.m */; };
+		D3A63EF51C506B6A009CC22E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63EF41C506B6A009CC22E /* ViewController.m */; };
+		D3A63EF81C506B6A009CC22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A63EF61C506B6A009CC22E /* Main.storyboard */; };
+		D3A63EFA1C506B6A009CC22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A63EF91C506B6A009CC22E /* Assets.xcassets */; };
+		D3A63EFD1C506B6A009CC22E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A63EFB1C506B6A009CC22E /* LaunchScreen.storyboard */; };
+		D3A63F291C506C1A009CC22E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A63F281C506C1A009CC22E /* libicucore.tbd */; };
+		D3A63F311C506D2A009CC22E /* Chapter1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2A1C506D2A009CC22E /* Chapter1.txt */; };
+		D3A63F321C506D2A009CC22E /* Chapter2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2B1C506D2A009CC22E /* Chapter2.txt */; };
+		D3A63F331C506D2A009CC22E /* Chapter3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2C1C506D2A009CC22E /* Chapter3.txt */; };
+		D3A63F341C506D2A009CC22E /* Chapter4.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2D1C506D2A009CC22E /* Chapter4.txt */; };
+		D3A63F351C506D2A009CC22E /* Chapter5.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2E1C506D2A009CC22E /* Chapter5.txt */; };
+		D3A63F361C506D2A009CC22E /* Chapter6.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F2F1C506D2A009CC22E /* Chapter6.txt */; };
+		D3A63F371C506D2A009CC22E /* Chapter7.txt in Resources */ = {isa = PBXBuildFile; fileRef = D3A63F301C506D2A009CC22E /* Chapter7.txt */; };
+		D3A63F3A1C506ED8009CC22E /* TReaderTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63F391C506ED8009CC22E /* TReaderTextController.m */; };
+		D3A63F401C506F53009CC22E /* TReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63F3F1C506F53009CC22E /* TReaderViewController.m */; };
+		D3A63F461C507905009CC22E /* TReaderChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63F451C507905009CC22E /* TReaderChapter.m */; };
+		D3A63F4C1C507A0E009CC22E /* TReaderPager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A63F4B1C507A0E009CC22E /* TReaderPager.m */; };
+		D3B5417B1C521418008EB4B7 /* TReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B5417A1C521418008EB4B7 /* TReaderManager.m */; };
+		D3B5417E1C52225C008EB4B7 /* TReaderMark.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B5417D1C52225C008EB4B7 /* TReaderMark.m */; };
+		D3D7B7831C5762FE00A99876 /* NSAttributedString+TReaderPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7B7821C5762FE00A99876 /* NSAttributedString+TReaderPage.m */; };
+		D3EF8C281C60496800F5925E /* EPageIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C271C60496800F5925E /* EPageIndexView.m */; };
+		D3EF8C2F1C607D3600F5925E /* EDbHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C2C1C607D3600F5925E /* EDbHandle.m */; };
+		D3EF8C301C607D3600F5925E /* EDbObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C2E1C607D3600F5925E /* EDbObject.m */; };
+		D3EF8C321C607DFF00F5925E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EF8C311C607DFF00F5925E /* libsqlite3.tbd */; };
+		D3EF8C351C60878600F5925E /* TReaderMarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C341C60878600F5925E /* TReaderMarkController.m */; };
+		D3EF8C4D1C60958000F5925E /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C371C60957F00F5925E /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D3EF8C4E1C60958000F5925E /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C3A1C60957F00F5925E /* NSMutableAttributedString+TY.m */; };
+		D3EF8C4F1C60958000F5925E /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C3C1C60957F00F5925E /* TYAttributedLabel.m */; };
+		D3EF8C501C60958000F5925E /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C3E1C60957F00F5925E /* TYDrawStorage.m */; };
+		D3EF8C511C60958000F5925E /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C401C60957F00F5925E /* TYImageCache.m */; };
+		D3EF8C521C60958000F5925E /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C421C60957F00F5925E /* TYImageStorage.m */; };
+		D3EF8C531C60958000F5925E /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C441C60957F00F5925E /* TYLinkTextStorage.m */; };
+		D3EF8C541C60958000F5925E /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C451C60958000F5925E /* TYTextContainer+Extended.m */; };
+		D3EF8C551C60958000F5925E /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C471C60958000F5925E /* TYTextContainer.m */; };
+		D3EF8C561C60958000F5925E /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C491C60958000F5925E /* TYTextStorage.m */; };
+		D3EF8C571C60958000F5925E /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EF8C4C1C60958000F5925E /* TYViewStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0BBB8E31C5095A7005B0F37 /* TReaderBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderBook.h; sourceTree = "<group>"; };
+		B0BBB8E41C5095A7005B0F37 /* TReaderBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderBook.m; sourceTree = "<group>"; };
+		B0BBB8E61C509743005B0F37 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		B0BBB8E71C509743005B0F37 /* CYLoLi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CYLoLi.png; sourceTree = "<group>"; };
+		B0BBB8E81C509743005B0F37 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		D352789D1C56402C007D72E0 /* EReaderFontBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EReaderFontBar.h; sourceTree = "<group>"; };
+		D352789E1C56402C007D72E0 /* EReaderFontBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EReaderFontBar.m; sourceTree = "<group>"; };
+		D352789F1C56402C007D72E0 /* EReaderFontBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EReaderFontBar.xib; sourceTree = "<group>"; };
+		D35278A01C56402C007D72E0 /* EReaderToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EReaderToolBar.h; sourceTree = "<group>"; };
+		D35278A11C56402C007D72E0 /* EReaderToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EReaderToolBar.m; sourceTree = "<group>"; };
+		D35278A21C56402C007D72E0 /* EReaderToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EReaderToolBar.xib; sourceTree = "<group>"; };
+		D35278A31C56402C007D72E0 /* EReaderTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EReaderTopBar.h; sourceTree = "<group>"; };
+		D35278A41C56402C007D72E0 /* EReaderTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EReaderTopBar.m; sourceTree = "<group>"; };
+		D35278A51C56402C007D72E0 /* EReaderTopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EReaderTopBar.xib; sourceTree = "<group>"; };
+		D35278AE1C5640CA007D72E0 /* UIColor+TReaderTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TReaderTheme.h"; sourceTree = "<group>"; };
+		D35278AF1C5640CA007D72E0 /* UIColor+TReaderTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TReaderTheme.m"; sourceTree = "<group>"; };
+		D35278B11C5641A4007D72E0 /* UIView+NIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NIB.h"; sourceTree = "<group>"; };
+		D35278B21C5641A4007D72E0 /* UIView+NIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NIB.m"; sourceTree = "<group>"; };
+		D3A63EEA1C506B6A009CC22E /* TBookReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBookReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A63EEE1C506B6A009CC22E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3A63EF01C506B6A009CC22E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3A63EF11C506B6A009CC22E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3A63EF31C506B6A009CC22E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3A63EF41C506B6A009CC22E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3A63EF71C506B6A009CC22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A63EF91C506B6A009CC22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A63EFC1C506B6A009CC22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3A63EFE1C506B6A009CC22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A63F281C506C1A009CC22E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		D3A63F2A1C506D2A009CC22E /* Chapter1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter1.txt; sourceTree = "<group>"; };
+		D3A63F2B1C506D2A009CC22E /* Chapter2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter2.txt; sourceTree = "<group>"; };
+		D3A63F2C1C506D2A009CC22E /* Chapter3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter3.txt; sourceTree = "<group>"; };
+		D3A63F2D1C506D2A009CC22E /* Chapter4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter4.txt; sourceTree = "<group>"; };
+		D3A63F2E1C506D2A009CC22E /* Chapter5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter5.txt; sourceTree = "<group>"; };
+		D3A63F2F1C506D2A009CC22E /* Chapter6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter6.txt; sourceTree = "<group>"; };
+		D3A63F301C506D2A009CC22E /* Chapter7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chapter7.txt; sourceTree = "<group>"; };
+		D3A63F381C506ED8009CC22E /* TReaderTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderTextController.h; sourceTree = "<group>"; };
+		D3A63F391C506ED8009CC22E /* TReaderTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderTextController.m; sourceTree = "<group>"; };
+		D3A63F3E1C506F53009CC22E /* TReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderViewController.h; sourceTree = "<group>"; };
+		D3A63F3F1C506F53009CC22E /* TReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderViewController.m; sourceTree = "<group>"; };
+		D3A63F441C507905009CC22E /* TReaderChapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderChapter.h; sourceTree = "<group>"; };
+		D3A63F451C507905009CC22E /* TReaderChapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderChapter.m; sourceTree = "<group>"; };
+		D3A63F4A1C507A0E009CC22E /* TReaderPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderPager.h; sourceTree = "<group>"; };
+		D3A63F4B1C507A0E009CC22E /* TReaderPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderPager.m; sourceTree = "<group>"; };
+		D3B541791C521418008EB4B7 /* TReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderManager.h; sourceTree = "<group>"; };
+		D3B5417A1C521418008EB4B7 /* TReaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderManager.m; sourceTree = "<group>"; };
+		D3B5417C1C52225C008EB4B7 /* TReaderMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderMark.h; sourceTree = "<group>"; };
+		D3B5417D1C52225C008EB4B7 /* TReaderMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderMark.m; sourceTree = "<group>"; };
+		D3D7B7811C5762FE00A99876 /* NSAttributedString+TReaderPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TReaderPage.h"; sourceTree = "<group>"; };
+		D3D7B7821C5762FE00A99876 /* NSAttributedString+TReaderPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TReaderPage.m"; sourceTree = "<group>"; };
+		D3EF8C261C60496800F5925E /* EPageIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPageIndexView.h; sourceTree = "<group>"; };
+		D3EF8C271C60496800F5925E /* EPageIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPageIndexView.m; sourceTree = "<group>"; };
+		D3EF8C2B1C607D3600F5925E /* EDbHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDbHandle.h; sourceTree = "<group>"; };
+		D3EF8C2C1C607D3600F5925E /* EDbHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDbHandle.m; sourceTree = "<group>"; };
+		D3EF8C2D1C607D3600F5925E /* EDbObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDbObject.h; sourceTree = "<group>"; };
+		D3EF8C2E1C607D3600F5925E /* EDbObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDbObject.m; sourceTree = "<group>"; };
+		D3EF8C311C607DFF00F5925E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D3EF8C331C60878600F5925E /* TReaderMarkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TReaderMarkController.h; sourceTree = "<group>"; };
+		D3EF8C341C60878600F5925E /* TReaderMarkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TReaderMarkController.m; sourceTree = "<group>"; };
+		D3EF8C361C60957F00F5925E /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		D3EF8C371C60957F00F5925E /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		D3EF8C391C60957F00F5925E /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		D3EF8C3A1C60957F00F5925E /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		D3EF8C3B1C60957F00F5925E /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		D3EF8C3C1C60957F00F5925E /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		D3EF8C3D1C60957F00F5925E /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		D3EF8C3E1C60957F00F5925E /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		D3EF8C3F1C60957F00F5925E /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		D3EF8C401C60957F00F5925E /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		D3EF8C411C60957F00F5925E /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		D3EF8C421C60957F00F5925E /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		D3EF8C431C60957F00F5925E /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		D3EF8C441C60957F00F5925E /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		D3EF8C451C60958000F5925E /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		D3EF8C461C60958000F5925E /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		D3EF8C471C60958000F5925E /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		D3EF8C481C60958000F5925E /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		D3EF8C491C60958000F5925E /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		D3EF8C4A1C60958000F5925E /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		D3EF8C4B1C60958000F5925E /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		D3EF8C4C1C60958000F5925E /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A63EE71C506B6A009CC22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF8C321C607DFF00F5925E /* libsqlite3.tbd in Frameworks */,
+				D3A63F291C506C1A009CC22E /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35278AC1C564031007D72E0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D3B541791C521418008EB4B7 /* TReaderManager.h */,
+				D3B5417A1C521418008EB4B7 /* TReaderManager.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		D35278AD1C564043007D72E0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D3D7B7811C5762FE00A99876 /* NSAttributedString+TReaderPage.h */,
+				D3D7B7821C5762FE00A99876 /* NSAttributedString+TReaderPage.m */,
+				D35278AE1C5640CA007D72E0 /* UIColor+TReaderTheme.h */,
+				D35278AF1C5640CA007D72E0 /* UIColor+TReaderTheme.m */,
+				D35278B11C5641A4007D72E0 /* UIView+NIB.h */,
+				D35278B21C5641A4007D72E0 /* UIView+NIB.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D3A63EE11C506B6A009CC22E = {
+			isa = PBXGroup;
+			children = (
+				D3EF8C311C607DFF00F5925E /* libsqlite3.tbd */,
+				D3A63F281C506C1A009CC22E /* libicucore.tbd */,
+				D3A63EEC1C506B6A009CC22E /* TBookReader */,
+				D3A63EEB1C506B6A009CC22E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A63EEB1C506B6A009CC22E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A63EEA1C506B6A009CC22E /* TBookReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A63EEC1C506B6A009CC22E /* TBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				D3A63F041C506B81009CC22E /* TBookReader */,
+				D3EF8C291C607C2D00F5925E /* Vender */,
+				D3A63EF01C506B6A009CC22E /* AppDelegate.h */,
+				D3A63EF11C506B6A009CC22E /* AppDelegate.m */,
+				D3A63EF31C506B6A009CC22E /* ViewController.h */,
+				D3A63EF41C506B6A009CC22E /* ViewController.m */,
+				D3A63EF61C506B6A009CC22E /* Main.storyboard */,
+				D3A63EF91C506B6A009CC22E /* Assets.xcassets */,
+				D3A63EFB1C506B6A009CC22E /* LaunchScreen.storyboard */,
+				D3A63EFE1C506B6A009CC22E /* Info.plist */,
+				D3A63EED1C506B6A009CC22E /* Supporting Files */,
+			);
+			path = TBookReader;
+			sourceTree = "<group>";
+		};
+		D3A63EED1C506B6A009CC22E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0BBB8E61C509743005B0F37 /* avatar.png */,
+				B0BBB8E71C509743005B0F37 /* CYLoLi.png */,
+				B0BBB8E81C509743005B0F37 /* haha.png */,
+				D3A63F2A1C506D2A009CC22E /* Chapter1.txt */,
+				D3A63F2B1C506D2A009CC22E /* Chapter2.txt */,
+				D3A63F2C1C506D2A009CC22E /* Chapter3.txt */,
+				D3A63F2D1C506D2A009CC22E /* Chapter4.txt */,
+				D3A63F2E1C506D2A009CC22E /* Chapter5.txt */,
+				D3A63F2F1C506D2A009CC22E /* Chapter6.txt */,
+				D3A63F301C506D2A009CC22E /* Chapter7.txt */,
+				D3A63EEE1C506B6A009CC22E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3A63F041C506B81009CC22E /* TBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				D3A63F411C5076B2009CC22E /* Controller */,
+				D3A63F431C50788D009CC22E /* Model */,
+				D3A63F421C507884009CC22E /* View */,
+				D35278AD1C564043007D72E0 /* Category */,
+				D35278AC1C564031007D72E0 /* Tool */,
+			);
+			path = TBookReader;
+			sourceTree = "<group>";
+		};
+		D3A63F411C5076B2009CC22E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3A63F3E1C506F53009CC22E /* TReaderViewController.h */,
+				D3A63F3F1C506F53009CC22E /* TReaderViewController.m */,
+				D3A63F381C506ED8009CC22E /* TReaderTextController.h */,
+				D3A63F391C506ED8009CC22E /* TReaderTextController.m */,
+				D3EF8C331C60878600F5925E /* TReaderMarkController.h */,
+				D3EF8C341C60878600F5925E /* TReaderMarkController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D3A63F421C507884009CC22E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D352789D1C56402C007D72E0 /* EReaderFontBar.h */,
+				D352789E1C56402C007D72E0 /* EReaderFontBar.m */,
+				D352789F1C56402C007D72E0 /* EReaderFontBar.xib */,
+				D35278A01C56402C007D72E0 /* EReaderToolBar.h */,
+				D35278A11C56402C007D72E0 /* EReaderToolBar.m */,
+				D35278A21C56402C007D72E0 /* EReaderToolBar.xib */,
+				D35278A31C56402C007D72E0 /* EReaderTopBar.h */,
+				D35278A41C56402C007D72E0 /* EReaderTopBar.m */,
+				D35278A51C56402C007D72E0 /* EReaderTopBar.xib */,
+				D3EF8C261C60496800F5925E /* EPageIndexView.h */,
+				D3EF8C271C60496800F5925E /* EPageIndexView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3A63F431C50788D009CC22E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0BBB8E31C5095A7005B0F37 /* TReaderBook.h */,
+				B0BBB8E41C5095A7005B0F37 /* TReaderBook.m */,
+				D3A63F441C507905009CC22E /* TReaderChapter.h */,
+				D3A63F451C507905009CC22E /* TReaderChapter.m */,
+				D3A63F4A1C507A0E009CC22E /* TReaderPager.h */,
+				D3A63F4B1C507A0E009CC22E /* TReaderPager.m */,
+				D3B5417C1C52225C008EB4B7 /* TReaderMark.h */,
+				D3B5417D1C52225C008EB4B7 /* TReaderMark.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D3EF8C291C607C2D00F5925E /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF8C381C60957F00F5925E /* TYAttributedLabel */,
+				D3EF8C2A1C607D3600F5925E /* DbObject */,
+				D3EF8C361C60957F00F5925E /* RegexKitLite.h */,
+				D3EF8C371C60957F00F5925E /* RegexKitLite.m */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D3EF8C2A1C607D3600F5925E /* DbObject */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF8C2B1C607D3600F5925E /* EDbHandle.h */,
+				D3EF8C2C1C607D3600F5925E /* EDbHandle.m */,
+				D3EF8C2D1C607D3600F5925E /* EDbObject.h */,
+				D3EF8C2E1C607D3600F5925E /* EDbObject.m */,
+			);
+			path = DbObject;
+			sourceTree = "<group>";
+		};
+		D3EF8C381C60957F00F5925E /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D3EF8C391C60957F00F5925E /* NSMutableAttributedString+TY.h */,
+				D3EF8C3A1C60957F00F5925E /* NSMutableAttributedString+TY.m */,
+				D3EF8C3B1C60957F00F5925E /* TYAttributedLabel.h */,
+				D3EF8C3C1C60957F00F5925E /* TYAttributedLabel.m */,
+				D3EF8C3D1C60957F00F5925E /* TYDrawStorage.h */,
+				D3EF8C3E1C60957F00F5925E /* TYDrawStorage.m */,
+				D3EF8C3F1C60957F00F5925E /* TYImageCache.h */,
+				D3EF8C401C60957F00F5925E /* TYImageCache.m */,
+				D3EF8C411C60957F00F5925E /* TYImageStorage.h */,
+				D3EF8C421C60957F00F5925E /* TYImageStorage.m */,
+				D3EF8C431C60957F00F5925E /* TYLinkTextStorage.h */,
+				D3EF8C441C60957F00F5925E /* TYLinkTextStorage.m */,
+				D3EF8C451C60958000F5925E /* TYTextContainer+Extended.m */,
+				D3EF8C461C60958000F5925E /* TYTextContainer.h */,
+				D3EF8C471C60958000F5925E /* TYTextContainer.m */,
+				D3EF8C481C60958000F5925E /* TYTextStorage.h */,
+				D3EF8C491C60958000F5925E /* TYTextStorage.m */,
+				D3EF8C4A1C60958000F5925E /* TYTextStorageProtocol.h */,
+				D3EF8C4B1C60958000F5925E /* TYViewStorage.h */,
+				D3EF8C4C1C60958000F5925E /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A63EE91C506B6A009CC22E /* TBookReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A63F011C506B6A009CC22E /* Build configuration list for PBXNativeTarget "TBookReader" */;
+			buildPhases = (
+				D3A63EE61C506B6A009CC22E /* Sources */,
+				D3A63EE71C506B6A009CC22E /* Frameworks */,
+				D3A63EE81C506B6A009CC22E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBookReader;
+			productName = TBookReader;
+			productReference = D3A63EEA1C506B6A009CC22E /* TBookReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A63EE21C506B6A009CC22E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tany;
+				TargetAttributes = {
+					D3A63EE91C506B6A009CC22E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D3A63EE51C506B6A009CC22E /* Build configuration list for PBXProject "TBookReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A63EE11C506B6A009CC22E;
+			productRefGroup = D3A63EEB1C506B6A009CC22E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A63EE91C506B6A009CC22E /* TBookReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A63EE81C506B6A009CC22E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A63EFD1C506B6A009CC22E /* LaunchScreen.storyboard in Resources */,
+				B0BBB8EA1C509743005B0F37 /* CYLoLi.png in Resources */,
+				D35278AB1C56402C007D72E0 /* EReaderTopBar.xib in Resources */,
+				D3A63EFA1C506B6A009CC22E /* Assets.xcassets in Resources */,
+				D3A63F371C506D2A009CC22E /* Chapter7.txt in Resources */,
+				D3A63F361C506D2A009CC22E /* Chapter6.txt in Resources */,
+				D3A63F331C506D2A009CC22E /* Chapter3.txt in Resources */,
+				D3A63F321C506D2A009CC22E /* Chapter2.txt in Resources */,
+				B0BBB8EB1C509743005B0F37 /* haha.png in Resources */,
+				D3A63F311C506D2A009CC22E /* Chapter1.txt in Resources */,
+				D35278A71C56402C007D72E0 /* EReaderFontBar.xib in Resources */,
+				D35278A91C56402C007D72E0 /* EReaderToolBar.xib in Resources */,
+				D3A63F341C506D2A009CC22E /* Chapter4.txt in Resources */,
+				D3A63F351C506D2A009CC22E /* Chapter5.txt in Resources */,
+				D3A63EF81C506B6A009CC22E /* Main.storyboard in Resources */,
+				B0BBB8E91C509743005B0F37 /* avatar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A63EE61C506B6A009CC22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF8C551C60958000F5925E /* TYTextContainer.m in Sources */,
+				D3EF8C4F1C60958000F5925E /* TYAttributedLabel.m in Sources */,
+				D3EF8C4D1C60958000F5925E /* RegexKitLite.m in Sources */,
+				D3EF8C561C60958000F5925E /* TYTextStorage.m in Sources */,
+				D3EF8C301C607D3600F5925E /* EDbObject.m in Sources */,
+				D3EF8C531C60958000F5925E /* TYLinkTextStorage.m in Sources */,
+				D35278A61C56402C007D72E0 /* EReaderFontBar.m in Sources */,
+				D3A63F461C507905009CC22E /* TReaderChapter.m in Sources */,
+				D3EF8C511C60958000F5925E /* TYImageCache.m in Sources */,
+				B0BBB8E51C5095A7005B0F37 /* TReaderBook.m in Sources */,
+				D3EF8C4E1C60958000F5925E /* NSMutableAttributedString+TY.m in Sources */,
+				D35278B01C5640CA007D72E0 /* UIColor+TReaderTheme.m in Sources */,
+				D3B5417B1C521418008EB4B7 /* TReaderManager.m in Sources */,
+				D3B5417E1C52225C008EB4B7 /* TReaderMark.m in Sources */,
+				D3EF8C281C60496800F5925E /* EPageIndexView.m in Sources */,
+				D3D7B7831C5762FE00A99876 /* NSAttributedString+TReaderPage.m in Sources */,
+				D3EF8C541C60958000F5925E /* TYTextContainer+Extended.m in Sources */,
+				D3EF8C351C60878600F5925E /* TReaderMarkController.m in Sources */,
+				D3EF8C521C60958000F5925E /* TYImageStorage.m in Sources */,
+				D35278AA1C56402C007D72E0 /* EReaderTopBar.m in Sources */,
+				D3A63F4C1C507A0E009CC22E /* TReaderPager.m in Sources */,
+				D3EF8C571C60958000F5925E /* TYViewStorage.m in Sources */,
+				D3A63EF51C506B6A009CC22E /* ViewController.m in Sources */,
+				D35278A81C56402C007D72E0 /* EReaderToolBar.m in Sources */,
+				D3A63EF21C506B6A009CC22E /* AppDelegate.m in Sources */,
+				D3EF8C501C60958000F5925E /* TYDrawStorage.m in Sources */,
+				D35278B31C5641A4007D72E0 /* UIView+NIB.m in Sources */,
+				D3A63F401C506F53009CC22E /* TReaderViewController.m in Sources */,
+				D3A63EEF1C506B6A009CC22E /* main.m in Sources */,
+				D3A63F3A1C506ED8009CC22E /* TReaderTextController.m in Sources */,
+				D3EF8C2F1C607D3600F5925E /* EDbHandle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3A63EF61C506B6A009CC22E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A63EF71C506B6A009CC22E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3A63EFB1C506B6A009CC22E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A63EFC1C506B6A009CC22E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A63EFF1C506B6A009CC22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3A63F001C506B6A009CC22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A63F021C506B6A009CC22E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TBookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.233.TBookReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D3A63F031C506B6A009CC22E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TBookReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.233.TBookReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A63EE51C506B6A009CC22E /* Build configuration list for PBXProject "TBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A63EFF1C506B6A009CC22E /* Debug */,
+				D3A63F001C506B6A009CC22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A63F011C506B6A009CC22E /* Build configuration list for PBXNativeTarget "TBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A63F021C506B6A009CC22E /* Debug */,
+				D3A63F031C506B6A009CC22E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3A63EE21C506B6A009CC22E /* Project object */;
+}
